@@ -1,0 +1,692 @@
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: rgb(237, 237, 237);
+}
+*{
+    scroll-behavior:smooth;
+}
+
+a{
+    text-decoration: none;
+}
+#bas{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color:#ffffff;
+    height: 70px;
+    position: fixed;
+    z-index: 2;
+
+}
+
+#hakk{
+    margin-left: 70px;
+
+}
+#ana{
+    margin-right: 70px;
+    margin-left: 70px;  /*emmreye at*/
+}
+
+#logoheader{
+    height: 60px;          /* emreye at*/
+}
+
+#bas>#logokaplama:hover{
+    background-color: white;
+
+}
+
+#bas a:hover{
+    color: white;
+    background-color:black;
+    transition: all 0.5s;
+}
+
+.hdr{               
+    height: 70px;           /* a'ların box'u*/
+}
+    
+
+#bas a{
+    display: flex ;
+    align-items: center;
+    padding-left: 30px;     /*70ten kısıldı*/ /*emreye at*/
+    padding-right: 30px;
+    font-family:"Work Sans", sans-serif;
+    color:rgba(0, 0, 0, 0.818);
+    font-weight: 600;
+
+}
+
+
+
+div>a{
+    font-weight: bold;
+}
+
+
+#main{
+    
+    width:100%;
+    height: 705px; /*705*/
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#background{
+    background-image: url(img/anabg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 705px; /*705*/
+    position: absolute;
+    z-index: -1;
+    filter: blur(2px);
+
+}
+
+#kesfet{
+
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0,0.75);
+    margin-top: 70px; /*70*/
+    
+    font-family:"Ubuntu", sans-serif;
+
+    border-radius: 15px;
+    transition: all 0.3s;
+}
+
+#kesfet a{
+    font-size: 80px;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+
+#kesfet a:hover,#kesfet:hover{
+    font-size: 82px;
+    border-radius: 30px;
+    transition: all 0.3s;
+}
+
+#arabosluk{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    font-size: 30px;
+    background-color: white;
+}
+
+#arabosluk img{
+    height: 200px;
+}
+#final{
+    margin-bottom: 0px;
+
+}
+
+.mainurun{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 237);
+    margin-bottom: 150px; /*150px */
+}
+
+#sonmainurun{
+    margin-bottom: 0px;
+}
+
+.urunyazi_l{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    font-family: "Castoro" ,serif;
+    font-size: 24px;
+
+}
+.urunyazi_r{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-right: 130px;
+    font-family: "Castoro", serif;
+    font-size: 24px;
+
+}
+
+.urunyazi_r p,.urunyazi_l p{
+    font-family: "Castoro" ,sans-serif;
+    font-weight: 400;
+}
+
+.urunfoto{
+    display: flex;
+    
+
+}
+.urunfoto a{
+    display: flex;
+
+
+    height: 732px; /*732*/
+    filter: saturate(1);
+
+}
+
+
+
+
+
+
+
+#ftmain{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#ftmain h3{
+
+    font-weight: 500;
+}
+
+
+footer{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #ffffff;
+
+}
+
+#logofooter{
+    height: 60px;
+    padding-top: 20px;
+}
+.ft h2{
+    font-family: "Castoro",sans-serif;
+    font-weight: 400;
+    padding-right: -50px;
+}
+
+
+.ft h3 img{
+    height: 90px;
+    border-radius: 50%;  /*tag değişti emreye at*/
+    text-align: left;
+
+}
+
+i{
+    padding-right: 10px;
+}
+#hakkımda h2{
+    text-align: center;
+}
+
+#hakkımda #coskunpp{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+
+}
+
+
+
+/* diğer sayfa */
+
+#selamlar{
+    padding-top: 7%;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    color:rgba(0, 0, 0, 0.818);
+    
+}
+.fotomenu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    margin-bottom: 5%;
+}
+
+.fotokutu{
+    
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    height: 460px;         /*360*/
+    width: 320px;          /*300*/
+    background-color:white ;
+    color:rgba(0, 0, 0, 0.818) ;
+    border-radius: 10px;
+    transition: all 0.5s;
+    
+}
+
+.fotokutu:hover{
+    box-shadow: black 2px 2px 15px;
+}
+
+.fotokutu img{
+    width: 320px;      /*300*/
+    height: 400px;    /*300*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.fotokutu p{
+    padding-left: 10%;
+    padding-top:3px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.image-container {
+    position: relative;
+    width: 320px;    /*300*/
+    height: 400px;   /*300*/
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-out;
+}
+
+.first {
+    transform: translateX(0);
+}
+
+.second {
+    transform: translateX(100%);
+}
+
+.image-container:hover .first {
+    transform: translateX(-100%);
+}
+
+.image-container:hover .second {
+    transform: translateX(0);
+}
+
+/*diğer diğer sayfa*/
+
+.uruncontainer{
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+    margin-bottom: 17%;
+
+}
+
+.uruncontainer h1{
+    font-family: "Castoro",sans-serif;
+}
+.uruncontainer p{
+    font-family: "Ubuntu",sans-serif;
+}
+
+.urunsayfasi{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 70px;
+    width: 1000px;
+    align-items: center;
+
+}
+
+
+
+
+.sipariş{
+    background-color: rgb(209,160,95); /*#0a6bff*/
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    margin-top: 100px;
+}
+
+.sipariş:hover {
+    background-color: rgb(168, 124, 67);
+    transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+    .sipariş {
+      padding: 16px 44px;
+      min-width: 150px;
+    }
+}
+
+
+#toggle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+#toggle{
+    scroll-margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(209,160,95);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 60%;
+    max-width: 600px;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+#formdiv{
+    font-family: Arial, sans-serif;
+    background-color: rgb(237, 237, 237);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/ max-height: 0;
+    opacity: 0;
+    margin: 0;
+    
+
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    overflow:hidden
+}
+#formdiv.expanded {
+    /*height: 100vh;*/max-height: 100vh;
+    opacity: 1;
+  }
+  
+#formdiv.collapsed {
+    max-height: 0;
+    opacity: 0;
+}
+  
+table {
+    
+    width: 60%;
+    max-width: 600px;
+    margin: 0px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #dddddd;
+        }
+        th {
+            background-color:rgb(209,160,95);
+            color: white;
+            font-size: 24px;
+            text-align: center;
+        }
+        input[type="text"], input[type="email"], select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 6px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea {
+            resize: vertical;
+        }
+        input[type="submit"] {
+            width: 100%;
+            background-color:rgb(209,160,95);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: all 1s;
+        }
+        input[type="submit"]:hover {
+            background-color: rgb(60, 60, 60);
+            
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+
+        
+
+
+
+
+        * {box-sizing:border-box}
+
+
+/*ekliyom YENİ*/
+.ortala{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /*argin-bottom: 60px;*/
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.9);
+}
+
+.close {
+    position: absolute;
+    top: 21%;
+    right: 40.5%;
+    color: rgb(99, 99, 96);
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 200;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+  }
+
+
+.login-container {
+    margin-top: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    width: 300px;
+    
+
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.login-container input[type="text"],.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/*ekledim YENİ*/
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  width: 500px;
+  height: 600px;
+  
+}
+
+.mySlides img{
+    width: 500px;
+    height: 600px;
+    border-radius: 10px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
